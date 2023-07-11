@@ -1,0 +1,10 @@
+import turtle
+wn=turtle.Screen()
+wn.title("Write with turtle")
+wn.bgcolor("black")
+aq=turtle.Turtle()
+style=("times new roman","10","italic","underline","bold")
+aq.color("Yellow")
+aq.write("It is interesting to write with turtle ",font=style,align="center")
+aq.hideturtle()
+turtle.done()
